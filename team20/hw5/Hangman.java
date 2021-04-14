@@ -33,9 +33,9 @@ public class Hangman {
 	public void checkInput(String in) {
 		Scanner scan = new Scanner(System.in);
 		String userIn;
-		if(!(( in.charAt(0)>='A' && in.charAt(0)<='Z' ) || ( in.charAt(0)>='a' && in.charAt(0)<='z' )) || (in)) {
+		if(!(( in.charAt(0)>='A' && in.charAt(0)<='Z' ) || ( in.charAt(0)>='a' && in.charAt(0)<='z' ))) {
 			System.out.println("Wrong Input. Try Again: ");
-			userIn.scanLine();
+			//userIn.scanLine();
 			
 			
 		
